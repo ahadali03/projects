@@ -1,0 +1,20 @@
+# Sudoku Solver
+
+A simple Python script that uses a backtracking algorithm to solve Sudoku puzzles.
+
+## Requirements
+
+- Python 3.x
+
+## Usage
+
+To use the solver, simply modify the `grid` variable in the script to represent the Sudoku puzzle you want to solve. Then, run the script using a Python interpreter.
+
+The solved puzzle will be printed to the console.
+
+
+## Notes
+
+- This script is designed to solve Sudoku puzzles that are represented as a 9x9 grid, with each cell containing a single integer value between 0 and 9.
+- The `solve` function uses a backtracking algorithm to find a solution for the puzzle. 
+If the puzzle does not have a unique solution or has no solution at all, the function will return `False`.
